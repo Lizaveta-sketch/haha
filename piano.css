@@ -1,0 +1,140 @@
+#piano {
+
+   width: 1200px;
+
+   margin-top: 150px;
+
+     }
+ img {
+
+  position: absolute;
+
+  margin-top: -560px;
+
+  margin-left: 10px;
+
+     }
+body {
+  background-color: pink;
+ 
+  text-align: center;
+
+}
+ol {
+
+  position: relative;
+
+  display: inline-block;
+
+  margin-top: -250px;
+
+}
+#leftHand {
+
+  margin-right: -20px;
+
+}
+
+
+
+#rightHand {
+
+  margin-left: -20px;
+
+}#audio {
+
+  z-index: -1;
+
+  background-color: transparent;
+
+}
+li {
+
+  position: relative;
+
+  background-color: #FFFFF0;
+
+  z-index: 1;
+
+  padding: 220px 30px 100px;
+
+  display: inline-block;
+
+  border: 1px solid #ccc;
+
+  font-size: 20px;
+
+  margin-right: -1px;
+
+  margin-left: -2px;
+
+  border-radius: 0px 0px 7px 7px;
+
+  color: transparent;
+
+  box-shadow: -3px 7px 4px #2a2a2a;
+
+}
+
+
+
+li:active {
+
+  box-shadow: -1px 2px 3px #2a2a2a;
+
+}
+.black-key {
+
+  position: absolute;
+
+  z-index: 2;
+
+  background-color:#1d1d1d;
+
+  padding: 230px 12px 12px;
+
+  top: 0px;
+
+  margin-left: -31px;
+
+  box-shadow: none;
+
+  border-width: 0px 6px 12px;
+
+  border-color: #000;
+
+  border-bottom-color: #2a2a2a;
+
+}
+.black-key:hover {
+
+    color: FFF000;
+
+}
+
+.black-key:active {
+
+  border-bottom-width: 8px;
+
+  box-shadow: none;
+
+}
+.white-key {
+
+  margin: 0;
+
+}
+#C {
+
+  border-top-left-radius: 7px;
+
+}
+
+
+
+#B1 {
+
+  border-top-right-radius: 7px;
+
+}
+
