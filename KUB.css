@@ -406,7 +406,7 @@
 
     position: fixed;
 
-    left: -12%;
+    left: -5%;
 
     top: 40%;
 
@@ -610,6 +610,8 @@
     text-transform: uppercase;
 
     text-decoration: none;
+	
+	text-color: black
 
     cursor: pointer;
 
@@ -664,6 +666,8 @@
     text-transform: uppercase;
 
     text-decoration: none;
+	
+	text-color: black
 
     transition: background 0.2s, color 0.2s, border-color 0.2s;
 
