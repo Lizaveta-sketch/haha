@@ -406,9 +406,9 @@
 
     position: fixed;
 
-    left: 0%;
+    left: -5%;
 
-    top: 40%;
+    top: 65%;
 
     transform: translateY(-50%) rotate(-90deg);
 
@@ -441,7 +441,7 @@
 
     position: fixed;
 
-    right: 0%;
+    right: 5%;
 
     top: 65%;
 
